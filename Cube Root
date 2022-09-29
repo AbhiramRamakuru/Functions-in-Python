@@ -1,0 +1,24 @@
+'''
+QUESTION:
+Write a program to find the cube of a number using function.
+
+Input & Output format:
+Input consists of one integer
+Output consists of cube of a given input.
+
+Sample Input & Output:
+5
+125
+
+'''
+
+# PROGRAM (Answer):
+
+#python
+def cube(a):
+    return a**3
+
+n=int(input())
+print(cube(n))
+
+# (a*a*a) == (a**3) == pow(a,3)    [all are same]
