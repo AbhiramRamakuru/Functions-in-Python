@@ -1,0 +1,24 @@
+'''
+QUESTION:
+
+Write a program to find the Square of a number using function.
+
+Input & Output Format:
+Input consists of one integer
+Output consists of a square of a number
+
+Sample Input & Output:
+5
+25
+
+'''
+
+# PROGRAM (Answer):
+
+#python
+def sqr(a):
+    return a**2
+
+n=int(input())
+print(sqr(n))
+# (a*a)==(a**2)==pow(a,2)  [all are same]  
